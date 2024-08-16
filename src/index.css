@@ -7,8 +7,8 @@
   --table-head-background-color: #6366f1;
   --box-shadow-color: rgba(0, 0, 0, 0.1); 
   --hover-color: gray;
-  --button-color: rgb(53, 53, 53);
-  --button-text-color:rgba(255, 255, 255, 0.916);
+  --button-color:rgb(209, 209, 209);
+  --button-text-color:rgba(21, 21, 21, 0.916);
 
 }
 [data-theme="light"] {
@@ -20,8 +20,8 @@
   --table-head-background-color: #749dc9;
   --box-shadow-color: rgba(0, 0, 0, 0.05); 
   --hover-color:  #2b6cb0;
-  --button-color: rgb(209, 209, 209);
-  --button-text-color:rgba(21, 21, 21, 0.916);
+  --button-color:  rgb(8, 2, 40);
+  --button-text-color:rgba(255, 255, 255, 0.916);
 
 }
 body{
@@ -170,7 +170,15 @@ button{
   border: none;
   box-shadow: 0 1px 4px grey;
   font-weight: bold;
-  
+}
+button:hover{
+  cursor: pointer;
+  padding: 11px 21px;
+  transition: 0.3s smooth;
+}
+button:active{
+  opacity: 0.8;
+  transition: 0.3s smooth;
 }
 
 

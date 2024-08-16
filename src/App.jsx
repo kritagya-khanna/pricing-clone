@@ -8,7 +8,7 @@ function App() {
     }
   
     return(
-      <div data-theme={theme}>
+      <div data-theme={theme==="dark"?"light":"dark"}>
         <Navbar/>
         <Pricing/>
         <button onClick={toggleTheme}>{theme}</button>
